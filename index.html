@@ -12,12 +12,18 @@
 </head>
 <body>
 
-  <div class="masthead">
+  <ul class="skip-links">
+    <li><a href="#main">Skip</a></li>
+    <li><a href="#nav">Skip</a></li>
+  </ul>
+
+
+  <header class="masthead" role="banner">
     <div class="wrapper pad-t-1-2 pad-b-1-2 gutter-1-2">
       <h1 class="push-0">Shrubbery, etc.</h1>
     </div>
     <div class="nav">
-      <div class="wrapper gutter-1-2">
+      <nav class="wrapper gutter-1-2" role="navigation" id="nav">
         <ol class="mega list-group-inline push-0">
           <li><a class="ib gutter-1-2 pad-t-1-2 pad-b-1-2" href="#">About</a></li>
           <li><a class="ib gutter-1-2 pad-t-1-2 pad-b-1-2" href="#">Shrubs</a></li>
@@ -25,11 +31,11 @@
           <li><a class="ib gutter-1-2 pad-t-1-2 pad-b-1-2" href="#">News</a></li>
           <li><a class="ib gutter-1-2 pad-t-1-2 pad-b-1-2" href="#">Contact</a></li>
         </ol>
-      </div>
+      </nav>
     </div>
-  </div>
+  </header>
 
-  <div>
+  <main id="main">
     <div class="about push" id="about">
       <div class="embed embed-24by10">
         <img class="embed-item" src="images/shrbs.jpg" alt="">
@@ -158,13 +164,13 @@
         </form>
       </div>
     </div>
-  </div>
+  </main>
 
-  <div class="footer pad-t-1-2 pad-b-1-2">
+  <footer class="footer pad-t-1-2 pad-b-1-2" role="contentinfo">
     <div class="wrapper gutter-1-2">
       <small class="push-0 micro">Some quotes © <i>Monty Python and the Holy Grail</i>, 1975.</small>
     </div>
-  </div>
+  </footer>
 
 </body>
 </html>

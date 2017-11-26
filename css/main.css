@@ -12,7 +12,6 @@ html {
 
 a {
   color: #568c36;
-  text-decoration: none;
 }
 
 a:hover {
@@ -25,7 +24,6 @@ a:focus {
 
 .masthead {
   background-color: #568c36;
-
   color: #fff;
 }
 
@@ -38,6 +36,10 @@ a:focus {
 .nav a {
   color: #fff;
   text-decoration: none;
+}
+
+.nav:focus {
+  outline: 3px solid #000;
 }
 
 .skip-links a {

@@ -2,6 +2,10 @@ html {
   font-family: Merriweather, serif;
 }
 
+.dark {
+  color: #000;
+}
+
 .color-brand {
   color: #568c36;
 }
@@ -15,7 +19,7 @@ a {
 }
 
 a:hover {
-  color: #113c00;
+  color: #000;
 }
 
 a:focus {
